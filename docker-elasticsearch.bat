@@ -1,0 +1,2 @@
+docker run --name elasticsearch -d -p 9200:9200 -d elasticsearch:5 -E http.port=9200 -E http.cors.allow-origin="http://10.0.75.1:1358" -E http.cors.enabled=true -E http.cors.allow-headers=X-Requested-With,X-Auth-Token,Content-Type,Content-Length,Authorization -E http.cors.allow-credentials=true
+pause
